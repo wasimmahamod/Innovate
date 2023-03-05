@@ -1,0 +1,77 @@
+/* all common css start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* all common css end */
+
+/* hero section start */
+
+#hero .search form .input input:focus ~ p,
+#hero .search form .input input:not(:placeholder-shown) ~ p
+{
+    top: 20px;
+    font-size: 12px;
+    color: #6A55EA;
+}
+
+/* hero section end */
+
+/* service section start */
+
+#service .main .content .item .icon svg path{
+    transition: all ease-in-out .3s;
+}
+
+#service .main .content .item .icon:hover svg path{
+    fill: #ffff00;
+}
+
+/* service section end */
+
+/* case_studien section start */
+
+#case_studien .case_item:hover .case_img{
+    transform: scale(1.2) rotate(5deg);
+}
+
+/* case_studien section endd */
+
+/* to_do section start */
+
+.to_do_icon_hover path{
+    transition: all ease-in-out .5s;
+}
+
+.to_do_btn:hover .to_do_icon_hover path{
+    fill: #fff;
+}
+
+/* to_do section end */
+
+/* analytics section start */
+
+#analytics .search form .input input:focus ~ p,
+#analytics .search form .input input:not(:placeholder-shown) ~ p
+{
+    top: 5px;
+    font-size: 12px;
+    color: #6A55EA;
+    z-index: 1;
+    background-color: #fff;
+    padding: 5px 20px;
+}
+
+#analytics .search form .input input:focus,
+#analytics .search form .input input:not(:placeholder-shown){
+    color: #fff;
+}
+
+#analytics .search form .input input:focus,
+#analytics .search form .input input:not(:placeholder-shown){
+    background-color: #6A55EA;
+    border: 3px solid #fff;
+}
+/* analytics section end */
